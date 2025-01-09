@@ -5,6 +5,8 @@
     <color name="gray_75">#101118</color>
     <color name="gray_100">#20222D</color>
     <color name="gray_200">#383a4b</color>
+    <color name="gray_700">#e4e4e7</color>
+    <color name="sea_green">#21ffb1</color>
     <color name="white">#FFFFFFFF</color>
     <color name="light_blue_50">#FFE1F5FE</color>
     <color name="light_blue_200">#FF81D4FA</color>

@@ -1,10 +1,11 @@
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/Widget.ObsidianWidget.AppWidget.Container"
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:gravity="center"
-    android:theme="@style/Theme.ObsidianWidget.AppWidgetContainer">
+    android:orientation="horizontal"
+    android:background="@color/gray_75"
+    android:padding="10dp">
 
     <TextView
         android:id="@+id/no_vault_message"
@@ -12,38 +13,43 @@
         android:layout_height="wrap_content"
         android:text="Please open the app to configure vault name"
         android:textAlignment="center"
-        android:padding="16dp"
+        android:padding="12dp"
         android:visibility="gone" />
-
-
-    <Button
-
-
-        android:id="@+id/open_vault_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:text="Open Vault" />
 
     <Button
         android:id="@+id/new_note_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="@color/sea_green"
+        android:textColor="@color/gray_75"
+        android:textSize="14sp"
+        android:padding="8dp"
         android:text="New note" />
 
     <Button
         android:id="@+id/daily_note_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:text="Daily Note" />
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginEnd="4dp"
+        android:backgroundTint="@color/gray_200"
+        android:textColor="@color/gray_700"
+        android:padding="8dp"
+        android:text="Daily Note"
+        android:textSize="14sp" />
 
     <Button
         android:id="@+id/search_vault_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="4dp"
-        android:text="Search Vault" />
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+
+        android:padding="8dp"
+        android:text="Search Vault"
+        android:backgroundTint="@color/gray_200"
+        android:textColor="@color/gray_700"
+        android:textSize="14sp" />
 
 </LinearLayout>
