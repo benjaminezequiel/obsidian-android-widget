@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.ObsidianWidget.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:theme="@style/Theme.ObsidianWidget.AppWidgetContainer">
+
+    <TextView
+        android:id="@+id/no_vault_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please open the app to configure vault name"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:visibility="gone" />
+
+
+    <Button
+
+
+        android:id="@+id/open_vault_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Open Vault" />
+
+    <Button
+        android:id="@+id/new_note_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="New note" />
+
+    <Button
+        android:id="@+id/daily_note_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Daily Note" />
+
+    <Button
+        android:id="@+id/search_vault_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:text="Search Vault" />
+
+</LinearLayout>
